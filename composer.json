@@ -29,6 +29,16 @@
         }
     },
     "extra": {
+		"installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+		"installer-paths": {
+			"libraries/{$name}": [
+				"type:bower-asset",
+				"type:npm-asset"
+			],
+		}
         "enable-patching": true,
         "patches": {
             "embed/embed": {
@@ -203,5 +213,8 @@
         "npm-asset/react": "^16.7.0",
         "npm-asset/react-dom": "^16.7.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
-    }
+    },
+	"require-dev": {
+		"drush/drush": "^10.3"
+	}
 }
