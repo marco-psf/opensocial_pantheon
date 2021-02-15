@@ -1,0 +1,14 @@
+name: Social Path Manager
+type: module
+description: Module for managing path aliases. Currently in an experimental stage. NOTE, This module is a work in progress and has some serious peformance issues still.
+core: '8.x'
+package: Social (experimental)
+dependencies:
+  - pathauto:pathauto
+  - redirect:redirect
+  - social:social_core
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

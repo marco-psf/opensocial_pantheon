@@ -1,0 +1,20 @@
+name: 'Social Post Photo'
+description: 'Provides an new post type bundle.'
+type: module
+core: 8.x
+dependencies:
+  - drupal:comment
+  - social:dropdown
+  - drupal:field
+  - drupal:file
+  - drupal:image
+  - image_effects:image_effects
+  - social:social_post
+  - drupal:text
+  - drupal:user
+package: Social
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

@@ -1,0 +1,14 @@
+name: 'Social Group Invite'
+description: 'Provides Group Invite member feature.'
+type: module
+core: 8.x
+dependencies:
+  - group:group
+  - group:ginvite
+  - social:social_group
+package: Social
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

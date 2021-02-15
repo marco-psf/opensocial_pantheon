@@ -1,0 +1,12 @@
+name: 'Social Magic login'
+description: 'Redirect users to a destination while using a magic login link.'
+type: module
+core: 8.x
+package: Social (experimental)
+dependencies:
+  - token:token
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

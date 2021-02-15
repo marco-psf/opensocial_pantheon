@@ -1,0 +1,12 @@
+name: 'Social Lazy Loading'
+type: module
+description: 'Module for lazy loading content using the blazy library.'
+core: '8.x'
+package: Social
+dependencies:
+  - lazy:lazy
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

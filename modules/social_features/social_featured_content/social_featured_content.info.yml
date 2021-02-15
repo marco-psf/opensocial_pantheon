@@ -1,0 +1,15 @@
+name: 'Social Featured Content'
+description: 'Provides "Featured Content" paragraphs type for landing pages.'
+type: module
+core: 8.x
+dependencies:
+  - drupal:block_content
+  - entity_reference_revisions:entity_reference_revisions
+  - paragraphs:paragraphs
+package: Social
+hidden: true
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

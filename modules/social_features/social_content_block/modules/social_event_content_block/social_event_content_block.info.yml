@@ -1,0 +1,13 @@
+name: 'Social Event Content Block'
+description: 'Provides a content block for events.'
+type: module
+core: 8.x
+dependencies:
+  - social:social_content_block
+  - social:social_event
+package: Social
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464

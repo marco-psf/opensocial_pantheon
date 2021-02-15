@@ -1,0 +1,13 @@
+name: 'Social Profile Organization Tag'
+description: 'Provides Profile Organization Tag field and vocabulary'
+type: module
+core: 8.x
+package: Social
+dependencies:
+  - social:social_profile
+  - drupal:taxonomy
+
+# Information added by Drupal.org packaging script on 2021-01-27
+version: '8.x-9.8'
+project: 'social'
+datestamp: 1611750464
