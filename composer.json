@@ -37,8 +37,8 @@
 			"libraries/{$name}": [
 				"type:bower-asset",
 				"type:npm-asset"
-			],
-		}
+			]
+		},
         "enable-patching": true,
         "patches": {
             "embed/embed": {
